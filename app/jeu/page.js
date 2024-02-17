@@ -68,8 +68,7 @@ const jeu = () => {
       }
     }
     console.log(username, guess, O, i, w)
-    let z = i / w
-    setRatio(Math.floor(100 / z))
+    setRatio(Math.floor(100 * (w/i)))
     setOrdi(array[randomIndex])
     
   }
