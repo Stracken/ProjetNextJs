@@ -1,5 +1,3 @@
-import {username,ratio,i} from "@/app/jeu/page"
-
 const Table = ({ username, ratio, i}) =>{
     return(
         <table>
